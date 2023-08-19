@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2023-07-26 19:26:09
+<?php /* Smarty version Smarty-3.1.6, created on 2023-08-19 22:45:47
          compiled from "../views/default\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:11161649fde94120643-64747655%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9797888b337e03f99b06385b60a372bbb52d5e02' => 
     array (
       0 => '../views/default\\header.tpl',
-      1 => 1690392366,
+      1 => 1692477942,
       2 => 'file',
     ),
   ),
@@ -30,6 +30,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </title>
         <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['templateWebPath']->value;?>
 css/main.css" type="text/css"/>
+        <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="/js/main.js" type="text/javascript" ></script>
     </head>
         <body>
             <div id="header">
