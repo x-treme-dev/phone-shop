@@ -68,14 +68,14 @@ function registerAction(){
  * Разлогинивание пользователя
  * Суть разлогинивания - удалить сессионные переменные и тогда сайт забудет о пользователе
  */
-
+ 
 function logoutAction(){
     if(isset($_SESSION['user'])){
         unset($_SESSION['user']);
         unset($_SESSION['cart']);
-    }
-    
-    redirect('/');
+        
+    } 
+     redirect('/');
 }
 
 

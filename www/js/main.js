@@ -115,5 +115,8 @@ function registerNewUser(){
        
        
     });
-    
+}
+
+function logout(){
+   $.getScript('/user/logout/');
 }
